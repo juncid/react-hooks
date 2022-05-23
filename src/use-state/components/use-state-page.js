@@ -1,7 +1,9 @@
 import React from 'react';
 
 import {ClassCounter} from './class-counter';
-import {HookCounter} from './hook-counter';
+import HookCounterNew from './hook-counter-new';
+// import {HookCounter} from './hook-counter';
+
 
 export const UseStatePage = () => (
   <>
@@ -11,6 +13,7 @@ export const UseStatePage = () => (
 
     <hr />
     <h3>Estado con el Hook useState</h3>
-    <HookCounter />
+    <HookCounterNew />
+    {/* <HookCounter /> */}
   </>
 );
